@@ -1,7 +1,7 @@
 # visualized-sort-py
 Visualising different sorts with pygame.
 
-Currently supported sorts: (feel free to add more :))
+Currently supported the following sorts: (feel free to add more :))
 1. Selection Sort
 2. Bubble Sort
 3. Quick Sort
