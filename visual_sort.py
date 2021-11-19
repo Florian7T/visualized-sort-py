@@ -143,12 +143,12 @@ if __name__ == "__main__":
     W_AMNT = math.floor((WIN_SIZE[0]-PADDING[0]*2-num)/num)
     H_AMNT = math.floor((WIN_SIZE[1]-PADDING[1]*2)/num)
     if W_AMNT < 1 or H_AMNT < 1:
-        print(f'an array of {num} won\'t fit on this screen')
+        print(f'an array with size {num} won\'t fit on this screen')
         exit(0)
     for _ in range(1,num+1): arr.append(_)
     print(f'array: {arr}')
     pygame.init()
-    screen = pygame.display.set_mode(WIN_SIZE,0,32,1)
+    screen = pygame.display.set_mode(WIN_SIZE,0,32,0)
     font = pygame.font.Font(pygame.font.get_default_font(), 25)
 
     pygame.display.set_caption("visual sort - github.com/Florian7T")
